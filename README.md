@@ -1,4 +1,5 @@
 # Books App
+![image](https://github.com/mouad-sellak/api-books-js/assets/75551008/aadfc5c7-48fc-4e38-a05b-e2b4f2a17bb5)
 
 Books App est une application web qui permet aux utilisateurs de rechercher des livres à l'aide de l'API d'OpenLibrary, de les ajouter à une liste de favoris et de gérer cette liste de lecture.
 
