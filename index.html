@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de Lecture</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Liste de Lecture Personnalisable</h1>
+        <input type="text" id="search-bar" placeholder="Rechercher un livre par titre ou auteur">
+        <select id="sort-order">
+            <option value="asc">Date croissante</option>
+            <option value="desc">Date décroissante</option>
+        </select>
+        <button id="search-button">Rechercher</button>
+        <button id="favorites-button">Favorite Liste</button>
+    </header>
+    <main>
+        <div id="loading-indicator" style="display:none;">Recherche...</div>
+        <div id="book-results"></div>
+        <div id="pagination"></div>
+        <h2>Vos Listes</h2>
+        <div id="lists"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
